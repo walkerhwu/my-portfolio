@@ -1,3 +1,9 @@
+.body {
+  font-family: "Arial Narrow", serif;
+  padding: 12px;
+  background-color: beige;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -51,4 +57,20 @@ ul{
 .navbar-nav {
   color: black;
   background-color: #f0f0f0;
+}
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sections-container {
+  margin-left: 220px;
+  padding: 2rem 2rem 2rem 2rem;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
 }
